@@ -1,14 +1,14 @@
-
+# Python environments and cache
 venv/
 .venv/
 env/
 .env
-
 __pycache__/
 *.py[cod]
 .vs/
 .vscode/
 
+# Local datasets and review data
 dataset/
 dataset_final/
 merged_raw/
@@ -22,37 +22,40 @@ weights/
 runs/
 output/
 
+# Generated inference outputs
 delivery/output/
 delivery/__pycache__/
 delivery/input.mp4
 
+# Large local files
 *.rar
 *.zip
-
-*.pt
-!delivery/best.pt
-
 *.mp4
 *.avi
 *.jpg
 *.jpeg
 *.png
-!assets/distance_error.png
-!assets/recall_benchmark.png
+!assets/*.svg
 
-/bbox_quality.csv
-/box_audit.csv
-/class_review.csv
-/inventory.csv
-/sky_candidates.csv
-/tree 3 mehr 0444pm.txt
-/KPI.txt
-/balloon_project_handoff_v2.md
-/balloon_project_handoff_v3.md
-/توضیحات پروژه.txt
-/ران شده کد 14 تا مرحله دوم ترین.txt
-/نتایج اجرای کد سوم.txt
-/نتایج اجرای کد چهارم.txt
-/کد ران شده 1 تا 13.txt
-/گزارش 22 تا 29.txt
-/گزارش_پروژه_بالن_قرمز.md
+# Keep only the delivery checkpoint
+*.pt
+!delivery/best.pt
+
+# Local audit files and temporary notes
+project_audit.txt
+tree 3 mehr 0444pm.txt
+bbox_quality.csv
+box_audit.csv
+class_review.csv
+inventory.csv
+sky_candidates.csv
+KPI.txt
+balloon_project_handoff_v2.md
+balloon_project_handoff_v3.md
+توضیحات پروژه.txt
+ران شده کد 14 تا مرحله دوم ترین.txt
+نتایج اجرای کد سوم.txt
+نتایج اجرای کد چهارم.txt
+کد ران شده 1 تا 13.txt
+گزارش 22 تا 29.txt
+گزارش_پروژه_بالن_قرمز.md
