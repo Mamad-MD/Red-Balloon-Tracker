@@ -1,0 +1,58 @@
+
+venv/
+.venv/
+env/
+.env
+
+__pycache__/
+*.py[cod]
+.vs/
+.vscode/
+
+dataset/
+dataset_final/
+merged_raw/
+real_sky/
+synthetic/
+synthetic_v2/
+test_big/
+cutouts/
+review/
+weights/
+runs/
+output/
+
+delivery/output/
+delivery/__pycache__/
+delivery/input.mp4
+
+*.rar
+*.zip
+
+*.pt
+!delivery/best.pt
+
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+!assets/distance_error.png
+!assets/recall_benchmark.png
+
+/bbox_quality.csv
+/box_audit.csv
+/class_review.csv
+/inventory.csv
+/sky_candidates.csv
+/tree 3 mehr 0444pm.txt
+/KPI.txt
+/balloon_project_handoff_v2.md
+/balloon_project_handoff_v3.md
+/توضیحات پروژه.txt
+/ران شده کد 14 تا مرحله دوم ترین.txt
+/نتایج اجرای کد سوم.txt
+/نتایج اجرای کد چهارم.txt
+/کد ران شده 1 تا 13.txt
+/گزارش 22 تا 29.txt
+/گزارش_پروژه_بالن_قرمز.md
